@@ -21,10 +21,15 @@ img {
   max-width: 100%;
 }
 
+#ca-img img{
+  box-sizing: border-box;
+  /*border: 8px solid #FAF3BC;*/
+  background-color: #E8E8E8;
+  padding: 8px;
+  margin: 6% 0 5% 0;
+}
 
-
-/**********************************
-HEADING
+/**********************************HEADING
 ***********************************/
 
 header {
