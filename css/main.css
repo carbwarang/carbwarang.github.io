@@ -146,24 +146,62 @@ PAGE: PORTFOLIO
 PAGE: SERVICE
 ***********************************/
 
-.service-info {
+ul.service-info {
    background-color: #0F1642;
+   color:#fff;
    list-style: none;
+   overflow: hidden;   
+   
  }
 
  .service-info li {
-  margin: 5px;
+  margin: 5px 5px 5px -20px;
   padding: 5px;
+  
    }
- .service-info a {
+ .service-info a, .service-info a:visited {
     color: #fff;
   }
 
   .services h1{
     color: #ffcc00;
+    letter-spacing: 1px;
+    line-height: 100%;
+
   }
 
+  .service-info li:hover, ul.service-info li.sub-selected {   
+   background-color: #599a68;
 
+      
+  }
+
+ 
+/**********************************
+PAGE: MANAGEMENT SUB MENU
+***********************************/
+
+ ul.management-sub {
+  display: none;
+ }
+ .management-sub li {
+  
+   }
+ .management-sub a {
+    color: #fff;
+  }
+
+  .service-info li:hover ul.management-sub {
+    display: block;
+    background-color: #0F1642;
+    border: 1px solid #fff;
+    list-style: none;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -40px;
+    height:auto;
+    width:300px;    
+}
 
 
 
