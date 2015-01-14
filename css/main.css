@@ -181,7 +181,7 @@ ul.service-info {
 PAGE: MANAGEMENT SUB MENU
 ***********************************/
 
- ul.management-sub {
+ ul.management-sub{
   display: none;
  }
  .management-sub li {
@@ -203,6 +203,41 @@ PAGE: MANAGEMENT SUB MENU
     width:300px;    
 }
 
+ul.cfo-finance {
+  display: none;
+}
+
+.cfo-finance a {
+  color: #fff;
+}
+
+.service-info li:hover ul.management-sub li:hover ul.cfo-finance {
+    display: block;
+    background-color: #0F1642;
+    border: 1px solid #fff;
+    list-style: none;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -40px;
+    height:auto;
+    width:300px;    
+}
+
+
+
+
+
+
+
+
+
+
+/**********************************
+PAGE: CFO-FINANCE SUB MENU
+***********************************/
+
+ 
+ 
 
 
 /**********************************
@@ -213,9 +248,7 @@ COLORS
 body {
   background-color: #fff;
   color: #000;
-}
-
-/* green header */
+}/* green header */
 header {
   background: #6ab47b;
   border-color: #599a68;
@@ -250,6 +283,50 @@ nav a.selected, nav a:hover {
 }
 
 
+/* for spaces in the lines*/
+
+ul.tax-planning{
+  line-height: 220%;
+}
+
+.training-in-accounts{
+  line-height: 220%;
+}
+
+p.finance{
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.drafting-agreements-letters{
+ line-height: 230%;
+}
+
+ul.accounts-writing{
+  line-height: 200%;
+}
+
+ul.finance-management{
+  line-height: 200%;
+}
+
+ul.cfo-services{
+  line-height: 200%;
+}
+
+ul.statutory-audit{
+  line-height: 200%;
+}
+
+.contact-us {
+  margin-left: 30px;
+  padding-bottom: 60px;
+
+}
+
+address {
+  line-height: 200%;
+}
 
 
 
